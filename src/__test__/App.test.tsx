@@ -13,7 +13,7 @@ describe("간단한 테스트들", () => {
     expect(2 - 1).toBe(1);
   })
 
-  // it('의도적 fail만들기!!', () => {
-  //   expect(2 - 1).toBe(2);
-  // })
+  it('의도적 fail만들기!!', () => {
+    expect(2 - 1).toBe(2);
+  })
 })
